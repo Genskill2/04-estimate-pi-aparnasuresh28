@@ -25,8 +25,13 @@ int main(void) {
 }
 
 float wallis_pi(int k)
-{ float po;
-for(k=0; k<5; k++)
-{po*=8*k*k/(4*k*k-1);
-return po;
+{ float p,l,r,t;
+int j;
+for(j=0;j<k; j++)
+{l= (2 * j)/(2 * j- 1);
+        r = (2 * j)/(2 * j + 1);
+        t = l*r;
+        p+= 2*t;
+
+    return p;
 }}
