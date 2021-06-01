@@ -39,5 +39,10 @@ int main(void) {
   }
 }
 
+float mc_pi(i)
+{float pi;
 
+pi=4*frandom();
+return pi;
+}
 
