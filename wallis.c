@@ -26,7 +26,7 @@ int main(void) {
 
 float wallis_pi(int k)
 { float po;
-for(k=0, k<5; k++)
+for(k=0; k<5; k++)
 {po*=8*k*k/(4*k*k-1);
 return po;
-}
+}}
